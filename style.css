@@ -1,0 +1,215 @@
+/*--------CSS Section----------------*/
+/*--------Default Section----------------*/
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*--------Body Section----------------*/
+body{
+    background: #080808;
+    color:#FF4545;
+}
+.pec{
+    color:white;
+}
+.logo
+{
+    width:280px;   
+}
+
+.container{
+  padding: 10px 10%;
+}
+/*--------Header Section----------------*/
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: outside;
+    margin:10px 20px;
+    font-style: italic;
+    
+}
+nav ul li a {
+    color: #70E7D1;
+    font-size: medium;
+    text-decoration:none;
+    font-size: 30px;
+
+}
+
+.header_text{
+    margin-top: 12%;
+    font-size: 100px;
+    font-style: italic;
+   
+}
+.header_text h1{
+    font-size: 90px;
+    margin-top: 20px;
+    font-style: italic;
+    
+}
+.header_text h1 a{
+    color:#70E7D1;
+    text-decoration: none;
+    
+}
+
+/*--------About Section----------------*/
+#about{
+    padding: 150px 0;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about_1
+{
+   font-style: italic;
+   font-size: 30px;
+   color: #70E7D1;
+   
+}
+.p1
+{
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+}
+.tab_titles{
+    display: flex;
+    margin: 20px 0 40px;
+    
+}
+.tab_links
+{
+color: #fff;
+font-weight: 500;
+margin-right: 50px;
+position: relative;
+cursor: pointer;
+}
+.tab_contents ul li
+{
+    font-size:20px;
+    color:white;
+    list-style: none;
+    margin: 10px;
+}
+.tab_contents ul li span
+{
+    color:#00C5C8;
+    
+}
+.tab_contents
+{
+    display: none;
+}
+.tab_contents.active_tab{
+    display: block;
+}
+.lnk{
+    color: #00C5C8;
+    text-decoration: none;
+}
+
+/*--------Contact Section----------------*/
+
+.contact-left{
+    flex-basis: 35%;
+    font-style: italic;
+    color: #70E7D1;
+    font-size: 30px;
+    
+}
+
+.contact-left p{
+   margin-top: 30px;
+   font-style: italic;
+   font-size: 20px;
+   color:white;
+}
+.contact-left p i{
+    color: #ff4545;
+    margin-right: 15px;
+    font-size: 25px;
+ }
+ /*--------Icons Section----------------*/
+.social-icons{
+    margin-top: 30px;
+    
+    
+}
+.social-icons a{
+    margin-top: 30;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    
+    
+}
+.contact-right{
+    flex-basis: 60%;
+    
+}
+
+/*--------Contact Form Section----------------*/
+
+.contact-right form{
+    
+    width: 100%;
+    
+    /*--------Contact Form  Input-Area Section----------------*/
+ 
+
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background:#262626;
+    padding:15px;
+    margin:15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    font-style: italic;
+
+}
+/*--------For Buttons----------------*/
+.btn{
+    color: #ff4545;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #262626;
+    transition: all 0.2s ease;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+/*--------For Submit Button----------------*/
+.btn1{
+    margin-top:50px;
+
+}
+
+

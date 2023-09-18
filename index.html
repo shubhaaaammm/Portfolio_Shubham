@@ -1,0 +1,144 @@
+                                                                                                      <!--HTML Section-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <!--Header Section-->
+
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assests/Shubham-logos_white.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header_text">
+                <p class="pec">Web Developer</p>
+                <h1>Hi, I'am Shubham From <a href="https://en.wikipedia.org/wiki/Delhi" target="_blank"> Delhi.</a></h1>
+            </div>
+        </div>
+     </div>
+
+                                                                                 <!--About Section-->
+
+     <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about_1">
+                <h1>About Me</h1>
+                <p class="p1">I am Shubham. I am from Delhi, but currently I am staying in Mohali, Punjab. I am currently pursuing my Bachelor in Engineering from Chandigarh University. I have chosen computer science engineering specialization in DevOps because I always wanted to know the woking architecture of development and opeartions team together. Currently, I am in my third year of engineering. My ultimate goal is to work with reputed companies such as Amazon, Microsoft, Flipkart, and many more. Currently, I am working on my skills and improving them day-by-day, so that I can achieve my goal one day.</p>
+                <div class="tab_titles">
+                    <div class="tab_links" onclick="opentab('skills')">Skills</div>
+                    <div class="tab_links" onclick="opentab('Education')">Education</div>
+                    <div class="tab_links" onclick="opentab('Projects')">Projects</div>
+                </div>
+
+                                                                                   <!--Skills Section-->
+
+                <div class="tab_contents active_tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br class="edit">Skillfull in C++ & Java.</li>
+                        <li><span>Web Development</span><br>Skillfull in HTML,CSS & JavaScript.</li>
+                        <li><span>Cloud Computing Platforms</span><br>Skillfull in AWS & Microsoft Azure.</li>
+                        <li><span>Databases</span><br>Skillfull in MYSQL & Oracle.</li>
+                        <li><span>Soft Skills</span><br>Critical thinking, effective communication and problem-solving</li>
+                    </ul>
+                </div>
+
+                                                                                    <!--Education Section-->
+
+                <div class="tab_contents" id="Education">
+                    <ul>
+                        <li><span><a href="https://www.cuchd.in/" class="lnk">Chandigarh University,Punjab</a></span><br>Bachelor of Engineering<br>2021-Present</li>
+                        <li><span><a href="https://victoriapublicschool.in/" class="lnk"></a>Victoria Public Senior Secondary School,Delhi</span><br>Senior Secondary<br>2018-2019</li>
+                        <li><span><a href="https://www.gvbonline.com/" class="lnk">Gyandeep Vidya Bhawan,Delhi</a></span><br>Secondary<br>2016-2017</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab_contents" id="Projects">
+                    <ul>
+                        <li><span>CI/CD Pipeline for Web Applications</a></span><br>
+                            <p>The pipeline will automate the process of building, testing, and deploying the web application to
+                                production. The pipeline will ensure that the application is tested thoroughly before being deployed to
+                                production, reducing the risk of introducing bugs or other issues.</p>
+                    </li>
+                        <li><span></a>Modern Kubernetes Management</span><br>
+                            <li>Bootstrap a production level Kubernetes cluster and deploy a web application using GitOps principle. </li>
+                            <li>Use IaC for provisioning and configuring servers.</li> 
+                            <li>Setup the monitoring of the application using Prometheus. </li>
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+             </div>
+            </div>
+        </div>
+     </div>
+
+                                                                                         <!--Contact Section-->
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                                                                                     <!--Contact Me Section-->
+
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>kshubham4141@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+919958094932</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/shubhaaammmm/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/k_shubham_00"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/shubhaamm/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shubham-aa27a6230/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/kshubham4141/Portfolio_Shubham"><i class="fa-brands fa-github"></i></a>
+                        
+                    </div>
+                    <a href="assests/Shubham__-_Web_Developer.pdf"><button type="button" class="btn btn1">Download CV</button></button></a>
+                    <div class="contact-right">
+                                                      
+                                                                                            <!--Contact Form Section-->
+
+                                                       
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+
+                    </div>
+                    
+                  </div>
+                </div>
+            </div>
+        </div>
+     </div>
+                                                                              <!--JavaScript Section-->
+     <script>
+        var tablinks=document.getElementsByClassName("tab_links");
+        var tabcontents=document.getElementsByClassName("tab_contents");
+        function opentab(tabname){
+            
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active_tab");
+            }
+            document.getElementById(tabname).classList.add("active_tab")
+        }
+     </script>
+</body>
+</html>
